@@ -1,0 +1,53 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text{
+    font-size: 28px;
+}
+
+#button{
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 px rgb(0, 0, 0);
+    transition-duration: 0.1s ;
+}
+
+#button:hover{
+    background-color: red;
+    color: white;
+
+}
+
+#button:active{
+    background-color: green;
+    box-shadow: 0 0px gray;
+    transform: translateY(4px);
+}
+
+li{
+    list-style: none;
+    padding: 15px 20px;
+    border-bottom: 1px solid gray;
+}
+
+li:hover{
+    background-color: antiquewhite;
+    transition-duration: 0.2s ;
+}
+
+.selected{
+    background-color: rgb(47, 186, 255);
+}
